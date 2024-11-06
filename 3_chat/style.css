@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+#chatForm {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  margin: 10px auto;
+}
+
+#chatWindow {
+  height: 400px;
+  /*width: 400px;*/
+  border: 1px solid blue;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: rgb(245, 244, 244);
+  margin: 20px;
+}
+
+input[type="text"] {
+  border: 1px solid blue;
+  width: 310px;
+}
+
